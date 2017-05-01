@@ -2,13 +2,13 @@ Design Rationale:
 - Actors who repair Droids become the Droids Owners.
 - Only Tuscan Raiders and Player, Luke can heal Droids.
 - Droids inherit the team of the owner.
-- Droid's mobiltiy will be a method in the actor class that relies on the HitPoints in order to move.
+- Droid's mobiltiy will be a method in the actor class that relies on its HitPoints in order to move.
 
 - Player Actor can only train when adjacent to actor Ben.
 - When a Tuscan Raider is adjacent to Ben, Ben will have a 50/50 chance of using force or striking them.
 - If a Droid is adjacent to Ben, they will be struck.
 - 2 deactivated droids will spawn on load of the map.
-- Canteens can be destroyed when HP are 0.
+- Canteens can be destroyed when canteen HP goes down to 0.
 - Light Sabre's are wieldable if high enough force, has force affordance.
 
 - Only Ben and Luke can use the Force.
